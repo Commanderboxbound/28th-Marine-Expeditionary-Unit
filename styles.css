@@ -1,0 +1,100 @@
+
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #2b2b2b;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #dc3d00;
+}
+
+header h1 {
+  color: #ffffff;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #e0e0e0;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #dc3d00;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#hero {
+  background-color: #dc3d00;
+  color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #dc3d00;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.cta:hover {
+  background-color: #f0f0f0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2b2b2b;
+  border-top: 3px solid #dc3d00;
+  color: #999;
+}
+
+/* Roster table */
+.roster-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.roster-table thead {
+  background-color: #3b3b3b;
+}
+
+.roster-table th, .roster-table td {
+  padding: 10px;
+  border: 1px solid #444;
+  text-align: left;
+}
+
+.roster-table tr:hover {
+  background-color: #2d2d2d;
+}
